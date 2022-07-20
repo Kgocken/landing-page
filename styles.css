@@ -45,6 +45,7 @@ left {
 }
 
 button {
+    border-radius: 5px;
     width: 75px;
     background: #3882F6;
     color: #F9FAF8;
