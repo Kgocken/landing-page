@@ -35,7 +35,7 @@ left {
     flex-wrap: wrap;
     flex-shrink: 0;
     padding: 100px;
-    width: 350px
+    width: 350px;
 }
 
 .awe {
@@ -44,7 +44,9 @@ left {
     font-weight: 900;
 }
 
+
 button {
+    margin-top: 0px;
     border-radius: 5px;
     width: 75px;
     background: #3882F6;
@@ -52,11 +54,10 @@ button {
 }
 
 .pic {
-    display: flex;
-    margin: 100px;
-    height: 150px;
-    width: 450px;
-    border: 1px;
+    margin-right: 100px;
+    margin-top: 100px;
+    height: 200px;
+    width: 800px;
     background: #E5E7EB;
 }
 
