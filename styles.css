@@ -41,7 +41,7 @@ left {
 .awe {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 button {
@@ -58,6 +58,109 @@ button {
     width: 450px;
     border: 1px;
     background: #E5E7EB;
+}
+
+info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.rando {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.midpics {
+    display: flex;
+    margin-top: 40px;
+    margin: auto;
+}
+
+.middle img {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    margin: 5px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+figcaption {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+
+}
+
+quote {
+    display: flex;
+    background: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+}
+
+.state {
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.credit {
+    margin-right: 175px;
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+modal {
+    display: flex;
+    height: 80px;
+    width: 700px;
+    background: #3882F6;
+    border-radius: 10px;
+}
+
+.words {
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.up {
+    font-size: 18;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.down {
+    margin-top: 0px;
+}
+
+button {
+    height: 30px;
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-left: auto;
+    border-color: #E5E7EB;
+    color: #E5E7EB
+
 }
 
 footer {
